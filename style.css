@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.contan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    width: 100%;
+    display: block;
+
+    
+}
+ .img{
+    background-image: url(image/background\ pink.webp);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 150vh;
+    
+} 
+.head{
+    color: #fff;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+.body{
+    border: 1px solid #fff;
+    height: 650px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px 5px;
+}
+.secondbody{
+    border: 1px solid pink;
+    height: 600px;
+    background-color: pink;
+}
+
+.test{
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    color: red;
+    font-weight: 600;
+}
+.input{
+    display: flex;
+    margin-top: 70px;
+}
+.btn{
+    margin-left: 90px;
+    margin-top: 60px;
+    color: #fff;
+}
+#danger{
+    display: none;
+}
+.day{
+    height: 250px; 
+    margin-left: 70px;
+}
+
+.three{
+    width: 100%;
+    display: none;
+}
+.ay{
+    background-image: url(image/second\ bacground.jpg);
+    background-size: cover;
+    height: 130vh;
+    max-width: 100%;
+}
+.big{
+    border: 1px solid;
+    
+    width: 300px;
+    border: none;
+    
+}
+.twolove{
+    width: 170px;
+    height: 150px;
+    margin-left: 70px;
+
+}
+.redlove{
+    width: 300px;
+}
+.move{
+    color: #fff;
+    position: relative;
+    left: 92px;
+    bottom: 190px;
+    font-size: 50px;
+}
+.end{
+    position: relative;
+    bottom: 50px;
+    font-size: 30px;
+    font-style: italic;
+    display: none;
+
+}
+
+
+    @media screen and (max-width: 478px){
+        .two{
+            margin-left: 30px;
+            position: relative;
+                bottom: 0px;
+                top: 30px;
+            
+            }
+            .test{
+                font-style: italic;
+                font-family:'Courier New', Courier, monospace;
+                color: red;
+                font-weight: 600;
+                margin-top: 40px;
+            }
+            .input{
+                display: block;
+                margin-top: 50px;
+            
+            }
+            .inp{
+                width: 250px;
+                margin-top: 10px;
+                
+
+            }
+            .btn{
+                margin-left: 60px;
+                margin-top: 40px;
+            }
+            .img{
+                background-image: url(image/background\ pink.webp);
+                background-size: cover;
+                display: block;
+                width: 100%;
+                height: 100vh;
+                
+            } 
+            .day{
+                height: 250px; 
+                margin-left: 10px;
+            }
+            .redlove{
+                width: 300px;
+                margin-top: 20px;
+            }
+            .move{
+                color: #fff;
+                position: relative;
+                left: 92px;
+                bottom: 190px;
+                font-size: 50px;
+            }
+            .twolove{
+                width: 170px;
+                height: 150px;
+                margin-left: 70px;
+                margin-top: 50px;
+            
+            }
+            .ay{
+                background-image: url(image/second\ bacground.jpg);
+                background-size: cover;
+                height: 100vh;
+                max-width: 100%;
+            }
+            
+    }
