@@ -16,7 +16,7 @@
     
 }
  .img{
-    background-image: url(image/background\ pink.webp);
+    background-image: url(image/background-pink.webp);
     background-size: cover;
     display: block;
     width: 100%;
@@ -24,6 +24,39 @@
 
     
 } 
+
+.result {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.div1{
+   
+    height: 50px;
+    width:50px;
+    background-color: blue;
+   
+}
+.div2{
+    height: 50px;
+    width:50px;
+    background-color: green;
+}
+
+.move{
+    color: #fff;
+    right: 70px;
+    position: absolute;
+    z-index: 5;
+    font-size: 50px;
+}
 .head{
     color: #fff;
     padding: 50px;
@@ -55,6 +88,16 @@
 .input{
     display: flex;
     margin-top: 70px;
+    outline: none;
+    padding: 5px;
+}
+.inp{
+
+
+    outline: none;
+    padding: 5px;
+    
+
 }
 .btn{
     margin-left: 90px;
@@ -92,32 +135,31 @@
     margin-left: 70px;
 
 }
+.redlove-container{
+    width: 300px; 
+    height: 300px;
+    position: absolute;
+}
 .redlove{
-    width: 300px;
+  
+    object-fit: cover;
+  
+    z-index: 4;
 }
-.move{
-    color: #fff;
-    position: relative;
-    left: 92px;
-    bottom: 190px;
-    font-size: 50px;
-}
+
 .end{
     position: relative;
-    bottom: 50px;
+    /* bottom: 50px; */
     font-size: 30px;
     font-style: italic;
     display: none;
 
 }
-
-
     @media screen and (max-width: 478px){
         .two{
-            margin-left: 30px;
+            
             position: relative;
                 bottom: 0px;
-                top: 30px;
             
             }
             .test{
@@ -130,11 +172,16 @@
             .input{
                 display: block;
                 margin-top: 50px;
+                outline: none;
+
+
             
             }
             .inp{
                 width: 250px;
                 margin-top: 10px;
+                outline: none;
+                padding: 5px;
                 
 
             }
@@ -144,13 +191,11 @@
             }
             .img{
                 background-image: url(image/blurred-valentine-s-day-background_52683-32322.avif);
-                background-size: cover;
-                display: block;
+                background-size: contain;
                 width: 100%;
                 height: 100vh;
                 max-width: 100%;
-                position: fixed;
-                right: 3px;
+
                 
                 
             } 
@@ -158,15 +203,24 @@
                 height: 250px; 
                 margin-left: 10px;
             }
-            .redlove{
-                width: 300px;
-                margin-top: 20px;
+            .div1{
+   
+                height: 50px;
+                width:50px;
+                background-color: blue;
+               
             }
+            .div2{
+                height: 50px;
+                width:50px;
+                background-color: green;
+            }
+            
             .move{
                 color: #fff;
-                position: relative;
-                left: 92px;
-                bottom: 190px;
+                right: 80px;
+                position: absolute;
+                z-index: 5;
                 font-size: 50px;
             }
             .twolove{
