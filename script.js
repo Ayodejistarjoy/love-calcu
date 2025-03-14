@@ -10,7 +10,7 @@ function clickme() {
          danger.style.display='none'
 },5000)
 }
-else if(first == 'Ayo' || second == 'Kat')
+else if(first == 'Ayodeji' || second == 'Mariam')
 {
    slide1.style.display = 'none'
    slide2.style.display = 'block'
